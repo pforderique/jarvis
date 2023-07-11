@@ -1,7 +1,7 @@
 from src import JARVIS
 
 bot = JARVIS()
-bot.start_listening()
+# bot.start_listening()
 
 while True:
     command = input("Enter a command: quit, start, stop, history: ")
